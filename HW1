@@ -1,0 +1,17 @@
+%Exercise 1
+A = [1,2;0,3];
+B = [2,1;1,2];
+x = [-1;1];
+y = [1;0];
+a1 = A+B;
+a2 = B*x;
+a3 = A*(x-y);
+a4 = A*B;
+a5 = B*A;
+save A1.dat a1 -ascii;
+save A2.dat a2 -ascii;
+save A3.dat a3 -ascii;
+save A4.dat a4 -ascii;
+save A5.dat a5 -ascii;
+
+%Exercise 2
